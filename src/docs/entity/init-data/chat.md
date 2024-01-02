@@ -40,7 +40,7 @@ order: 3
 
 *Опціонально.* URL-адреса фотографії чату. Фотографія може бути у форматах `.jpeg` або `.svg`. Повертається лише для веб-програм, запущених із [меню вкладень](https://core.telegram.org/bots/webapps#adding-bots-to-the-attachment-menu).
 
-## Методи {#metods}
+## Методи {#methods}
 
 ### `toArray`
 
