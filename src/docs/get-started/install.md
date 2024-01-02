@@ -4,12 +4,12 @@ icon: download
 order: 1
 ---
 
-## Що вам знадобиться
+## Що вам знадобиться {#you-will-need}
 
 - [PHP](https://windows.php.net/download) версії 8.0 або вище.
 - [Composer](https://getcomposer.org/download/) сумісний з необхідною версією PHP.
 
-## Монтаж
+## Монтаж {#install}
 
 Ви можете встановити бібліотеку TgWebValid як зазвичай через менеджер пакунків Composer, виконавши команду:
 

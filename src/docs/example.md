@@ -50,7 +50,7 @@ try {
     );
 
     /** Якщо перевірка успішна, виведу сутність InitData з усіма даними */
-    var_dump($initData->toArray);
+    var_dump($initData);
 
 } catch (ValidationException $e) {
     // Отримаю виняток валідації якщо перевірку провалено
