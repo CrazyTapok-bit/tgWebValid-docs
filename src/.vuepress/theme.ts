@@ -3,11 +3,11 @@ import { ukNavbar } from "./navbar/index.js";
 import { ukSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://tgwebvalid.com/",
 
   author: {
     name: "Mr. Anonymous",
-    url: "https://mister-hope.com"
+    url: "https://github.com/CrazyTapok-bit"
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -26,11 +26,7 @@ export default hopeTheme({
     "/": {
       navbar: ukNavbar,
       sidebar: ukSidebar,
-      displayFooter: true,
-      paginationLocales: {
-        prev: "Назад",
-        next: "Далі"
-      }
+      displayFooter: true
     },
   },
 
