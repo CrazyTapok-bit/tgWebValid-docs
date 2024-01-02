@@ -1,4 +1,4 @@
-import{_ as i}from"./plugin-vue_export-helper-x3n3nnut.js";import{r as o,o as c,c as l,a as n,d as e,b as s,w as t,e as d}from"./app-42fTPuzV.js";const r={},p=d(`<p>Перш за все вкажіть назву бота, він імені якого треба перевірити користувача. Або залиште параметр порожнім, щоб отримати бота за умовчанням.</p><div class="language-php line-numbers-mode" data-ext="php"><pre class="language-php"><code><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
+import{_ as i}from"./plugin-vue_export-helper-x3n3nnut.js";import{r as o,o as c,c as l,a as n,d as e,b as s,w as t,e as d}from"./app-A6tiIBiK.js";const r={},p=d(`<p>Перш за все вкажіть назву бота, він імені якого треба перевірити користувача. Або залиште параметр порожнім, щоб отримати бота за умовчанням.</p><div class="language-php line-numbers-mode" data-ext="php"><pre class="language-php"><code><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
 
 <span class="token doc-comment comment">/**
  * Спочатку налаштуйте базову конфігурацію
