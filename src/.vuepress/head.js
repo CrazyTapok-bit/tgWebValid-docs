@@ -3,7 +3,7 @@ const head = []
 const PRODUCTION = process.env.PRODUCTION
 const GTAG = process.env.GTAG
 
-const IS_GTAG = PRODUCTION || GTAG
+const IS_GTAG = PRODUCTION && GTAG
 
 // Google tag (gtag.js)
 if (IS_GTAG) head.push([
