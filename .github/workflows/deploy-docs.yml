@@ -32,6 +32,7 @@ jobs:
         env:
           PRODUCTION: true
           GTAG: ${{ vars.GTAG }}
+          ADSENSE: ${{ vars.ADSENSE }}
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           npm run docs:build
