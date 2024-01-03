@@ -1,24 +1,11 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
+import head from "./head.js";
 
 export default defineUserConfig({
   base: "/",
 
-  head: [
-    // Google tag (gtag.js)
-    [
-      "script", { async: true, src: "https://www.googletagmanager.com/gtag/js?id=G-Y1B2126VXX" }
-    ],
-    [
-      "script", {},
-      `window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-Y1B2126VXX');`
-    ],
-    // End Google tag (gtag.js)
-  ],
+  head,
   
   locales: {
     "/": {

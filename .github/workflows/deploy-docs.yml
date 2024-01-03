@@ -12,6 +12,7 @@ permissions:
 jobs:
   deploy-gh-pages:
     runs-on: ubuntu-latest
+    environment: production
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -29,6 +30,8 @@ jobs:
 
       - name: Build Docs
         env:
+          PRODUCTION: true
+          GTAG: ${{ vars.GTAG }}
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           npm run docs:build
