@@ -1,4 +1,4 @@
-import{_ as n}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as s,c as a,e}from"./app-ST4fMsrr.js";const t={},p=e(`<p>Ми намагаємось відобразити максимально повний приклад яким ви, скоріш за все, будете користуватись.</p><div class="language-php line-numbers-mode" data-ext="php"><pre class="language-php"><code><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
+import{_ as n}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as s,c as a,e}from"./app-yyvH6X0n.js";const t={},p=e(`<p>Ми намагаємось відобразити максимально повний приклад яким ви, скоріш за все, будете користуватись.</p><div class="language-php line-numbers-mode" data-ext="php"><pre class="language-php"><code><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
 
 <span class="token keyword">use</span> <span class="token package">TgWebValid<span class="token punctuation">\\</span>TgWebValid</span><span class="token punctuation">;</span>
 <span class="token keyword">use</span> <span class="token package">TgWebValid<span class="token punctuation">\\</span>BotConfig</span><span class="token punctuation">;</span>
