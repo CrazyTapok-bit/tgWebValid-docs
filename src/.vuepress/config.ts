@@ -20,7 +20,7 @@ export default defineUserConfig({
       "script", {},
       `(function() {
         var noscriptIframe = document.createElement('noscript');
-        var iframe = document.createElement('iframe);
+        var iframe = document.createElement('iframe');
         iframe.src = "https://www.googletagmanager.com/ns.html?id=GTM-T5DV934H";
         iframe.height = '0';
         iframe.width = '0';
