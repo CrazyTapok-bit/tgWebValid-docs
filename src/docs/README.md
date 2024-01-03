@@ -16,7 +16,7 @@ icon: book
 
 [![StandWithUkraine](https://raw.githubusercontent.com/CrazyTapok-bit/tgWebValid/4.x/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
 
-## Про TgWebValid
+## Про TgWebValid {#about}
 
 Наша бібліотека легка, швидка :rocket:, сучасна та має `100%` автокомпліт для отримання даних користувача. При цьому ми зробили її автономною, тому її використання можливе в будь-яких фреймворках або без них.
 
