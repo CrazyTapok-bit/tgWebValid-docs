@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { ukNavbar } from "./navbar/index.js";
-import { ukSidebar } from "./sidebar/index.js";
+import { enNavbar, ukNavbar } from "./navbar/index.js";
+import { ukSidebar, enSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://tgwebvalid.com/",
@@ -26,6 +26,11 @@ export default hopeTheme({
     "/": {
       navbar: ukNavbar,
       sidebar: ukSidebar,
+      displayFooter: true
+    },
+    "/en/": {
+      navbar: enNavbar,
+      sidebar: enSidebar,
       displayFooter: true
     },
   },
