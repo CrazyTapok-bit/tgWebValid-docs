@@ -10,13 +10,11 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "uk-UA",
-      title: "Тайтл",
-      description: "Опис",
+      title: "PHP бібліотека для перевірки користувачів Telegram"
     },
     "/en/": {
       lang: "en-US",
-      title: "Англ. тайтл",
-      description: "Англ. опис",
+      title: "The PHP library for validate Telegram users"
     },
   },
 
