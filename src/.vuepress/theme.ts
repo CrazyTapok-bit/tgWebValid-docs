@@ -18,7 +18,9 @@ export default hopeTheme({
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "CrazyTapok-bit/tgWebValid-docs",
+  repo: "CrazyTapok-bit/tgWebValid",
+
+  docsRepo: "CrazyTapok-bit/tgWebValid-docs",
 
   docsBranch: "master",
   
