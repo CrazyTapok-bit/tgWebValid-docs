@@ -24,7 +24,7 @@ try {
       throw: true
     );
 
-    /** Налаштую ще один додатковий бот щоб працюват з ними */
+    /** Налаштую ще один додатковий бот щоб працювати з ними */
     $tgWebValid->addBot(new BotConfig(
       name: 'secondary',
       token: 'TELEGRAM_BOT_TOKEN_2'
