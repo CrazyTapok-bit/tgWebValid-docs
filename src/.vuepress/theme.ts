@@ -64,31 +64,9 @@ export default hopeTheme({
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
       attrs: true,
-      codetabs: true,
       component: true,
-      demo: true,
-      figure: true,
       imgLazyload: true,
       imgSize: true,
-      include: true,
-      mark: true,
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
-          },
-        },
-      ],
-      sub: true,
-      sup: true,
-      tabs: true,
-      vPre: true,
 
       // install chart.js before enabling it
       // chart: true,
