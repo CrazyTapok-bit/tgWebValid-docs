@@ -33,6 +33,9 @@ jobs:
           PRODUCTION: true
           GTAG: ${{ vars.GTAG }}
           ADSENSE: ${{ vars.ADSENSE }}
+          DOCSEARCH_APPID: ${{ vars.DOCSEARCH_APPID }}
+          DOCSEARCH_APIKEY: ${{ vars.DOCSEARCH_APIKEY }}
+          DOCSEARCH_INDEX: ${{ vars.DOCSEARCH_INDEX }}
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           npm run docs:build

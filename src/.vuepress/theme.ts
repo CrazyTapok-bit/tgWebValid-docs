@@ -2,6 +2,10 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, ukNavbar } from "./navbar/index.js";
 import { ukSidebar, enSidebar } from "./sidebar/index.js";
 
+const DOCSEARCH_APPID = process.env.DOCSEARCH_APPID || ""
+const DOCSEARCH_APIKEY = process.env.DOCSEARCH_APIKEY || ""
+const DOCSEARCH_INDEX = process.env.DOCSEARCH_INDEX || ""
+
 export default hopeTheme({
   hostname: "https://tgwebvalid.com/",
 
@@ -48,6 +52,12 @@ export default hopeTheme({
     sitemap: true,
 
     seo: true,
+
+    docsearch: {
+      appId: DOCSEARCH_APPID,
+      apiKey: DOCSEARCH_APIKEY,
+      indexName: DOCSEARCH_INDEX
+    },
 
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
