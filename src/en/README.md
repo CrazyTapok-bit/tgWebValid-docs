@@ -16,10 +16,10 @@ tagline: An easy way to check Telegram Login Widget and Telegram Mini App users 
 actions:
   - text: Get Started
     icon: signs-post
-    link: /docs/
+    link: /en/docs/
     type: primary
 
   - text: Example
-    link: /docs/example/
+    link: /en/docs/example/
 
 footer: false

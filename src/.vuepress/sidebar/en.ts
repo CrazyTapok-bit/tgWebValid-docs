@@ -5,7 +5,7 @@ export const enSidebar = sidebar({
     {
       text: "Documentation",
       icon: "laptop-code",
-      prefix: "docs/",
+      prefix: "en/docs/",
       children: "structure",
     },
   ],
