@@ -1,0 +1,14 @@
+import{_ as n}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as e,c as a,e as s}from"./app-I-0oNmCg.js";const t={},i=s(`<p>Setting up multiple bots is very easy. For this, it is enough to call the <code>addBot</code> method and pass the necessary settings.</p><h2 id="example" tabindex="-1"><a class="header-anchor" href="#example" aria-hidden="true">#</a> Example</h2><div class="language-php line-numbers-mode" data-ext="php"><pre class="language-php"><code><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
+
+<span class="token keyword">use</span> <span class="token package">TgWebValid<span class="token punctuation">\\</span>BotConfig</span><span class="token punctuation">;</span>
+
+<span class="token doc-comment comment">/**
+ * Set up a basic configuration first
+ * After that, add the required number of bots
+ */</span>
+
+<span class="token variable">$tgWebValid</span><span class="token operator">-&gt;</span><span class="token function">addBot</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">BotConfig</span><span class="token punctuation">(</span>
+  <span class="token argument-name">name</span><span class="token punctuation">:</span> <span class="token string single-quoted-string">&#39;secondary&#39;</span><span class="token punctuation">,</span>
+  <span class="token argument-name">token</span><span class="token punctuation">:</span> <span class="token string single-quoted-string">&#39;TELEGRAM_BOT_TOKEN_2&#39;</span>
+<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="parameters" tabindex="-1"><a class="header-anchor" href="#parameters" aria-hidden="true">#</a> Parameters</h2><h3 id="name" tabindex="-1"><a class="header-anchor" href="#name" aria-hidden="true">#</a> <code>name</code></h3><ul><li>Type: <code>string</code></li><li>Required: Yes</li></ul><p>Come up with an arbitrary bot name. It is he who you will specify to call checks on his behalf.</p><h3 id="token" tabindex="-1"><a class="header-anchor" href="#token" aria-hidden="true">#</a> <code>token</code></h3><ul><li>Type: <code>string</code></li><li>Required: Yes</li></ul><p>The Telegram token of the bot on whose behalf the verification should be carried out.</p>`,10),o=[i];function l(c,p){return e(),a("div",null,o)}const u=n(t,[["render",l],["__file","multiple.html.vue"]]);export{u as default};
