@@ -6,9 +6,12 @@ head:
   - - meta
     - name: description
       content: The TgWebValid library is an easy way to verify Telegram Login Widget and Telegram Mini App users on your website using PHP.
+sitemap:
+  priority: 1
 heroImage: /logo.svg
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+heroAlt: Logo TgWebValid
+bgImage: /assets/bg/main-light.svg
+bgImageDark: /assets/bg/main-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: TgWebValid
@@ -21,5 +24,31 @@ actions:
 
   - text: Example
     link: /en/docs/example/
+
+highlights:
+  - header: Our features
+    description: Everything you need to be awesome and have fun writing code
+    bgImage: /assets/bg/yellow-light.svg
+    bgImageDark: /assets/bg/yellow-dark.svg
+    features:
+      - title: Speed
+        icon: rocket
+        details: Focused on the fastest possible data processing
+
+      - title: Autocomplete
+        icon: wand-magic-sparkles
+        details: We love clear and clean code as much as you do
+
+      - title: Testing
+        icon: vial-circle-check
+        details: We provide 100% coverage of PHPUnit functionality with tests
+
+      - title: Multibot
+        icon: gem
+        details: Work simultaneously with different bots
+
+      - title: Reliability
+        icon: check-double
+        details: Tested on high traffic chatbots
 
 footer: false
