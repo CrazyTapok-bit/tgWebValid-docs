@@ -7,8 +7,8 @@ head:
     - name: description
       content: Бібліотека TgWebValid - це простий спосіб перевірити користувачів Telegram Login Widget та Telegram Mini App на вашому веб-сайті за допомогою PHP.
 heroImage: /logo.svg
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+bgImage: /assets/bg/main-light.svg
+bgImageDark: /assets/bg/main-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: TgWebValid
