@@ -2,6 +2,10 @@
 title: Mini App
 icon: tablet-screen-button
 order: 1
+head:
+  - - meta
+    - name: description
+      content: Securely validate Telegram Mini App users on the backend of your PHP project using the TgWebValid library.
 ---
 
 We verify the integrity of the received data by comparing the received hash parameter with the hexadecimal representation of the `HMAC-SHA-256` signature of the data validation string with the secret key that is the `HMAC-SHA-256` signature of the bot token with the constant string `WebAppData` used as a key Details [here](https://core.telegram.org/bots/webapps#validating-data-received-via-the-mini-app)

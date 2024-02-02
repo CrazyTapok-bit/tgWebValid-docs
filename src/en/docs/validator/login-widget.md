@@ -2,6 +2,10 @@
 title: Login Widget
 icon: right-to-bracket
 order: 2
+head:
+  - - meta
+    - name: description
+      content: Securely validate Telegram Login Widget users in your PHP project using the TgWebValid library.
 ---
 
 We verify the authentication and integrity of the received data by comparing the received hash parameter to the hexadecimal representation of the `HMAC-SHA-256` signature of the data validation string with the `SHA256` hash of the bot token used as the secret key. Details [here](https://core.telegram.org/widgets/login#checking-authorization)

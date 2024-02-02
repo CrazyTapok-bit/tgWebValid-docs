@@ -2,6 +2,10 @@
 title: Міні додаток
 icon: tablet-screen-button
 order: 1
+head:
+  - - meta
+    - name: description
+      content: Надійно перевіряйте користувачів Telegram Mini App на серверній частині вашого PHP проекта за допомогою бібліотеки TgWebValid.
 ---
 
 Ми перевіряємо цілісність отриманих даних, порівнявши отриманий хеш-параметр із шістнадцятковим представленням підпису `HMAC-SHA-256` рядка перевірки даних із секретним ключем, який є підписом `HMAC-SHA-256` маркер бота з постійним рядком, `WebAppData` який використовується як ключ. Деталі [тут](https://core.telegram.org/bots/webapps#validating-data-received-via-the-mini-app)
