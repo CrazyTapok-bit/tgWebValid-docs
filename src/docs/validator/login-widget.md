@@ -2,6 +2,10 @@
 title: Віджет входу
 icon: right-to-bracket
 order: 2
+head:
+  - - meta
+    - name: description
+      content: Надійно перевіряйте користувачів Telegram Login Widget у вашому PHP проекті за допомогою бібліотеки TgWebValid.
 ---
 
 Ми перевіряємо автентифікацію та цілісність отриманих даних, порівнявши отриманий хеш-параметр із шістнадцятковим представленням підпису `HMAC-SHA-256` рядка перевірки даних із хешем `SHA256` маркера бота, який використовується як секретний ключ. Деталі [тут](https://core.telegram.org/widgets/login#checking-authorization)
