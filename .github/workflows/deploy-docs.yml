@@ -23,9 +23,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
+          cache: npm
 
       - name: Install Deps
-        run: npm install --legacy-peer-deps
+        run: npm ci
 
       - name: Build Docs
         env:
