@@ -7,4 +7,4 @@ dir:
   collapsible: false
 ---
 
-<AutoCatalog />
+<Catalog />
