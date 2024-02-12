@@ -27,9 +27,7 @@ actions:
 
 highlights:
   - header: Our features
-    description: Everything you need to be awesome and have fun writing code
-    bgImage: /assets/bg/yellow-light.svg
-    bgImageDark: /assets/bg/yellow-dark.svg
+    description: Key benefits for successful work
     features:
       - title: Speed
         icon: rocket
@@ -50,5 +48,4 @@ highlights:
       - title: Reliability
         icon: check-double
         details: Tested on high traffic chatbots
-
-footer: false
+---
