@@ -6,6 +6,8 @@ const DOCSEARCH_APPID = process.env.DOCSEARCH_APPID || ""
 const DOCSEARCH_APIKEY = process.env.DOCSEARCH_APIKEY || ""
 const DOCSEARCH_INDEX = process.env.DOCSEARCH_INDEX || ""
 
+const repo = "CrazyTapok-bit/tgWebValid"
+
 export default hopeTheme({
   hostname: "https://tgwebvalid.com/",
 
@@ -18,7 +20,7 @@ export default hopeTheme({
 
   logo: "./logo.svg",
 
-  repo: "CrazyTapok-bit/tgWebValid",
+  repo,
 
   docsRepo: "CrazyTapok-bit/tgWebValid-docs",
 
@@ -27,6 +29,8 @@ export default hopeTheme({
   docsDir: "src",
 
   navTitle: false,
+
+  footer: "💙💛 Made in Ukraine | MIT Licensed",
 
   locales: {
     "/": {
@@ -61,6 +65,34 @@ export default hopeTheme({
       indexName: DOCSEARCH_INDEX
     },
 
+    components: {
+      rootComponents: {
+        notice: [
+          {
+            path: "/",
+            title: "Правда ми круті 😎?",
+            content: `⭐️ Підтримайте нас, поставте нам зірку на <a target="_blank" rel="noopener noreferrer" href="https://github.com/${repo}">GitHub</a> та станьте нашим спонсором 😊`,
+            actions: [
+              {
+                text: "Спонсорувати 💰",
+                link: "https://www.patreon.com/user?u=99188087"
+              }
+            ]
+          },
+          {
+            path: "/en/",
+            title: "Are we really cool 😎?",
+            content: `⭐️ Support us, star us on <a target="_blank" rel="noopener noreferrer" href="https://github.com/${repo}">GitHub</a> and become our sponsor 😊`,
+            actions: [
+              {
+                text: "Sponsor 💰",
+                link: "https://www.patreon.com/user?u=99188087"
+              }
+            ]
+          }
+        ]
+      }
+    },
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
       attrs: true,
