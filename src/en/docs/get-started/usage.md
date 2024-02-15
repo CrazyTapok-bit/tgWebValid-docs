@@ -16,8 +16,12 @@ First of all, specify the name of the bot, the name of which you need to check t
  * Add other bots if needed
  */
 
+/** I use the default bot */
+$bot = $tgWebValid->bot();
+
+/** Or, specify which bot I want to work with */
 $bot = $tgWebValid->bot(
-  name: 'secondary' 
+  name: 'secondary'
 );
 ```
 

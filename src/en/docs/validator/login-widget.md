@@ -10,6 +10,8 @@ head:
 
 We verify the authentication and integrity of the received data by comparing the received hash parameter to the hexadecimal representation of the `HMAC-SHA-256` signature of the data validation string with the `SHA256` hash of the bot token used as the secret key. Details [here](https://core.telegram.org/widgets/login#checking-authorization)
 
+:rocket: A complete code example is available at [this page](../example/login-winget.md)
+
 ## Example {#example}
 
 ```php
