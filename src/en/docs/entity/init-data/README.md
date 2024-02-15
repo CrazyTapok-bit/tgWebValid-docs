@@ -5,7 +5,7 @@ dir:
   order: 1
 ---
 
-This object contains the data that is passed to the applet when it is opened. This entity can only be accessed after successful user authentication using the validator [mini-app](../../validator/web-app.md).
+This object contains the data that is passed to the applet when it is opened. This entity can only be accessed after successful user authentication using the validator [mini-app](../../validator/mini-app.md).
 
 ## Properties {#properties}
 
