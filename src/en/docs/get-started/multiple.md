@@ -11,17 +11,15 @@ Setting up multiple bots is very easy. For this, it is enough to call the `addBo
 ```php
 <?php
 
-use TgWebValid\BotConfig;
-
 /**
  * Set up a basic configuration first
  * After that, add the required number of bots
  */
 
-$tgWebValid->addBot(new BotConfig(
+$tgWebValid->addBot(
   name: 'secondary',
   token: 'TELEGRAM_BOT_TOKEN_2'
-));
+);
 ```
 
 ## Parameters {#parameters}

@@ -11,17 +11,15 @@ order: 3
 ```php
 <?php
 
-use TgWebValid\BotConfig;
-
 /**
  * Спочатку налаштуйте базову конфігурацію
  * Після цього, додайте необхідну кількість ботів
  */
 
-$tgWebValid->addBot(new BotConfig(
+$tgWebValid->addBot(
   name: 'secondary',
   token: 'TELEGRAM_BOT_TOKEN_2'
-));
+);
 ```
 
 ## Параметри {#parameters}

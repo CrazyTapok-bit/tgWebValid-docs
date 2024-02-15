@@ -8,5 +8,9 @@ export const ukNavbar = navbar([
     link: "/docs/README.md",
     activeMatch: "^/docs/$"
   },
-  "/docs/example",
+  {
+    text: "Повний приклад",
+    icon: "bolt",
+    link: "/docs/example/README.md"
+  }
 ]);

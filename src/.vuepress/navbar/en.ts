@@ -8,5 +8,9 @@ export const enNavbar = navbar([
     link: "/en/docs/README.md",
     activeMatch: "^/en/docs/$"
   },
-  "/en/docs/example",
+  {
+    text: "Full example",
+    icon: "bolt",
+    link: "/en/docs/example/README.md"
+  }
 ]);
