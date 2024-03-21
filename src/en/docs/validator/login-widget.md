@@ -27,7 +27,7 @@ $user = $bot->validateLoginWidget(
 );
 ```
 
-:bulb: Upon successful validation, the method will return a [LoginWidget](../entity/login-widget.md) entity that contains all existing user data that can be used on your server.
+:bulb: Upon successful validation, the method will return all existing user data that can be used on your server.
 
 ## Parameters {#parameters}
 

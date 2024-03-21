@@ -23,7 +23,7 @@ $initData = $bot->validateInitData(
 );
 ```
 
-:bulb: Upon successful validation, the method will return an [InitData](../entity/init-data/) entity that contains all available data that can be used on your server.
+:bulb: Upon successful validation, the method will return all existing user data that can be used on your server.
 
 ## Parameters {#parameters}
 
