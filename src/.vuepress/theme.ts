@@ -70,7 +70,7 @@ export default hopeTheme({
         notice: [
           {
             path: "/",
-            title: "Правда ми круті 😎?",
+            title: "Кажуть ми круті 😎",
             content: `⭐️ Підтримайте нас, поставте нам зірку на <a target="_blank" rel="noopener noreferrer" href="https://github.com/${repo}">GitHub</a> та станьте нашим спонсором 😊`,
             actions: [
               {
@@ -81,7 +81,7 @@ export default hopeTheme({
           },
           {
             path: "/en/",
-            title: "Are we really cool 😎?",
+            title: "They say we are cool 😎",
             content: `⭐️ Support us, star us on <a target="_blank" rel="noopener noreferrer" href="https://github.com/${repo}">GitHub</a> and become our sponsor 😊`,
             actions: [
               {
