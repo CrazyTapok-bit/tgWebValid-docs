@@ -16,6 +16,10 @@ export default defineUserConfig({
       lang: "en-US",
       title: "The PHP library for validate Telegram users"
     },
+    "/zh/": {
+      lang: "zh-CN",
+      title: "用于验证 Telegram 用户的 PHP 库"
+    },
   },
 
   theme,
