@@ -48,7 +48,7 @@ try {
      * which checks the data received from the Telegram Login Widget
      */
     $user = $bot->validateLoginWidget(
-      user: [/** Дані користувача */]
+      user: [/** User data */]
     );
 
     /**

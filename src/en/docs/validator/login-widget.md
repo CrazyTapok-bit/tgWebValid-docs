@@ -49,5 +49,5 @@ If set to `true`, the library will throw an exception if validation fails.
 :::warning
 Be sure to use `try/catch` if you plan to handle exceptions :wink:
 
-If exceptions are enabled, you will get a [ValidationException] exception after a validation failure(../exception/validation.md). Otherwise, `false' will be returned.
+If exceptions are enabled, you will get a [ValidationException] exception after a validation failure(../exception/validation.md). Otherwise, `false` will be returned.
 :::
