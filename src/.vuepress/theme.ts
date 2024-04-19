@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, ukNavbar } from "./navbar/index.js";
-import { ukSidebar, enSidebar } from "./sidebar/index.js";
+import { enNavbar, ukNavbar, zhNavbar } from "./navbar/index.js";
+import { ukSidebar, enSidebar, zhSidebar } from "./sidebar/index.js";
 
 const DOCSEARCH_APPID = process.env.DOCSEARCH_APPID || ""
 const DOCSEARCH_APIKEY = process.env.DOCSEARCH_APIKEY || ""
@@ -43,6 +43,11 @@ export default hopeTheme({
       sidebar: enSidebar,
       displayFooter: true
     },
+    "/zh/": {
+      navbar: zhNavbar,
+      sidebar: zhSidebar,
+      displayFooter: true
+    }
   },
 
   plugins: {
@@ -86,6 +91,17 @@ export default hopeTheme({
             actions: [
               {
                 text: "Sponsor 💰",
+                link: "https://www.patreon.com/user?u=99188087"
+              }
+            ]
+          },
+          {
+            path: "/zh/",
+            title: "他们说我们很酷😎",
+            content: `⭐️ 支持我们，在 <a target="_blank" rel="noopener noreferrer" href="https://github.com/${repo}">GitHub</a> 上为我们加注星标并成为我们的赞助商 😊`,
+            actions: [
+              {
+                text: "赞助商💰",
                 link: "https://www.patreon.com/user?u=99188087"
               }
             ]
