@@ -6,7 +6,7 @@ const ADSENSE = process.env.ADSENSE
 const MONETAG = "6f9bca78ef751283975bfdda408ebda7"
 
 const IS_GTAG = PRODUCTION && GTAG
-const IS_ADSENSE = PRODUCTION && ADSENSE
+const IS_ADSENSE = false // PRODUCTION && ADSENSE
 const IS_MONETAG = PRODUCTION && MONETAG
 
 // Google tag (gtag.js)
