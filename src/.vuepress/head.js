@@ -48,7 +48,7 @@ if (IS_MONETAG_ZONE) head.push([
   "script", {
     src: "https://alwingulla.com/88/tag.min.js",
     "data-zone": MONETAG_ZONE,
-    "data-cfasync": false,
+    "data-cfasync": "false",
     async: true
   }
 ])
