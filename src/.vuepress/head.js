@@ -3,13 +3,9 @@ const head = []
 const PRODUCTION = true ?? process.env.PRODUCTION
 const GTAG = process.env.GTAG
 const ADSENSE = process.env.ADSENSE
-const MONETAG = "6f9bca78ef751283975bfdda408ebda7"
-const MONETAG_ZONE = 63500
 
 const IS_GTAG = PRODUCTION && GTAG
-const IS_ADSENSE = false // PRODUCTION && ADSENSE
-const IS_MONETAG = PRODUCTION && MONETAG
-const IS_MONETAG_ZONE = PRODUCTION && MONETAG_ZONE
+const IS_ADSENSE = PRODUCTION && ADSENSE
 
 // Google tag (gtag.js)
 if (IS_GTAG) head.push([
@@ -35,23 +31,5 @@ if (IS_ADSENSE) head.push([
   }
 ])
 // End  Google AdSense
-
-// Monetag
-if (IS_MONETAG) head.push([
-  "meta", {
-    name: "monetag",
-    content: MONETAG
-  }
-])
-
-if (IS_MONETAG_ZONE) head.push([
-  "script", {
-    src: "https://alwingulla.com/88/tag.min.js",
-    "data-zone": MONETAG_ZONE,
-    "data-cfasync": "false",
-    async: true
-  }
-])
-// End Monetag
 
 export default head
