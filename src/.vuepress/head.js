@@ -4,7 +4,7 @@ const PRODUCTION = true ?? process.env.PRODUCTION
 const GTAG = process.env.GTAG
 const ADSENSE = process.env.ADSENSE
 const MONETAG = "6f9bca78ef751283975bfdda408ebda7"
-const MONETAG_ZONE = 63500
+const MONETAG_ZONE = 7438289
 
 const IS_GTAG = PRODUCTION && GTAG
 const IS_ADSENSE = false // PRODUCTION && ADSENSE
