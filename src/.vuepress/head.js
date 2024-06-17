@@ -9,6 +9,7 @@ const MONETAG_ZONE = 73276
 const IS_GTAG = PRODUCTION && GTAG
 const IS_ADSENSE = PRODUCTION && ADSENSE
 const IS_MONETAG = PRODUCTION && MONETAG
+const IS_MONETAG_ZONE = PRODUCTION && MONETAG_ZONE
 
 // Google tag (gtag.js)
 if (IS_GTAG) head.push([
